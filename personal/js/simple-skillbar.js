@@ -45,7 +45,7 @@
             i.css({
                 position: 'relative',
                 width: '100%',
-                backgroundColor: '#8c8c8c',
+                backgroundColor: '#ccc6c6',
                 height: this.o.height+'px'
             });
             i.find('.sb_bar').css({
