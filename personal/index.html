@@ -35,7 +35,7 @@
 		    <div class="container main-menu">
 		    	<div class="row align-items-center justify-content-between d-flex">
 			      <div id="logo">
-			        <a href="index.html"><img src="img/namelogo.png" alt="" title="" /></a>
+			        <a class="scrollto" href="#home"><img src="img/namelogo.png" alt="" title="" /></a>
 			      </div>
 			      <nav id="nav-menu-container">
 			        <ul class="nav-menu">
@@ -58,21 +58,21 @@
 				<div class="container">
 					<div class="row fullscreen align-items-center justify-content-between">
 						<div class="col-lg-6 col-md-6 banner-left">
-							<div class=mess-bubble>
+							<div class="mess-bubble animated slideInLeft">
 								<span>Hello I'm</span>
 							</div>
-							<h1>Ben Kostiuk</h1>
-							<h3><span class="text-slider-items">Web Developer.,Technophile.,Tech Enthusiast.,CS Student.,Coder.,Active Learner.</span><strong class="text-slider"></strong></h3>
-							<p>
+							<h1 class="animated fadeInUp delay-short" >Ben Kostiuk</h1>
+							<h3 class="animated fadeInUp delay-short"><span class="text-slider-items">Web Developer.,Technophile.,Tech Enthusiast.,CS Student.,Coder.,Active Learner.</span><strong class="text-slider"></strong></h3>
+							<p class="animated fadeInUp delay-short">
 								Throw me a challenge. I dare you.
 							</p>
-							<a href="#about" class="primary-btn text-uppercase">discover more</a></a>
-							<ul class="social-icon">
+							<a href="#about" class="primary-btn scrollto text-uppercase animated fadeInUp delay-short">discover more</a></a>
+						</br>
+							<ul class="social-icon animated bounceIn delay-2s">
 								<li><a href="https://www.linkedin.com/in/benjaminkostiuk/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
                                 <li><a href="https://github.com/BenjaminKostiuk" target="_blank"><i class="fa fa-github"></i></a></li>
-								<li><a href="mailto:kostiukb@mcmaster.ca" target="_blank"><i class="fa fa-envelope"></i></a></li>
+								<li><a href="mailto:kostiukb@mcmaster.ca"><i class="fa fa-envelope"></i></a></li>
 								<li><a href="https://www.facebook.com/benjamin.kostiuk.79" target="_blank"><i class="fa fa-facebook"></i></a></li>
-                            	<li><a href="https://www.instagram.com/ben.kostiuk/?hl=en" target="_blank"><i class="fa fa-instagram"></i></a></li>
 							</ul>
 						</div>
 						<div class="col-lg-6 col-md-6 banner-right d-flex align-self-end">
@@ -87,7 +87,7 @@
 			<!-- End banner Area -->
 
 			<!-- Start home-about Area -->
-			<section class="home-about-area pt-120" id="about">
+			<section class="home-about-area pt-120 content" id="about">
 				<div class="container">
 					<div class="row align-items-center justify-content-between">
 						<div class="col-lg-6 col-md-6 home-about-left">
@@ -108,7 +108,7 @@
 			<!-- End home-about Area -->
 
 			<!-- Start services Area -->
-			<section class="services-area section-gap" id="services">
+			<section class="services-area section-gap content"  id="services">
 				<div class="container">
 		            <div class="row d-flex justify-content-center">
 		                <div class="menu-content  col-lg-7">
@@ -121,28 +121,33 @@
 					<div class="row">
 						<div class="col-lg-4 col-md-6">
 							<div class="single-services">
-								<a href="https://github.com/BenjaminKostiuk/personal-website" target="_blank"><span class="lnr lnr-code"></span></a>
-								<a href="https://github.com/BenjaminKostiuk/personal-website" target="_blank" class="hover-red"><h4>Web Development</h4></a>
+								<a class="scrollto" href="#portfolio"><span class="lnr lnr-code"></span></a>
+								<a class="scrollto hover-red" href="#portfolio"><h4>Web Development</h4></a>
 								<p>
-									“It is not because things are difficult that we do not dare; it is because we do not dare that they are difficult.”
+									Creating user interfaces with Angular.js.
+									Implementing custom CSS and Bootstap.
+									Integrating functionality with Javascript.
 								</p>
 							</div>
 						</div>
 						<div class="col-lg-4 col-md-6">
 							<div class="single-services">
-								<a href="https://github.com/BenjaminKostiuk/CS1XA3" target="_blank"><span class="lnr lnr-database"></span></a>
-								<a href="https://github.com/BenjaminKostiuk/CS1XA3" target="_blank" class="hover-blue"><h4>Backend Programming</h4></a>
+								<a class="scrollto" href="#portfolio"><span class="lnr lnr-database"></span></a>
+								<a href="#portfolio" class="hover-blue scrollto"><h4>Backend Programming</h4></a>
 								<p>
-									If you are an entrepreneur, you know that your success cannot depend on the opinions of others. Like the wind, opinions.
+									Backend routing and API calls with Node.js. 
+									Server side scripting with bash and python. 
+									Source control with git and Github.
 								</p>
 							</div>
 						</div>
 						<div class="col-lg-4 col-md-6">
 							<div class="single-services">
-								<a href="https://github.com/BenjaminKostiuk/phoneticise-app" target="_blank"><span class="lnr lnr-tablet hover-green"></span></a>
-								<a href="https://github.com/BenjaminKostiuk/phoneticise-app" target="_blank" class="hover-green"><h4>Mobile Development</h4></a>
+								<a class="scrollto" href="#portfolio"><span class="lnr lnr-tablet hover-green"></span></a>
+								<a href="#portfolio" class="hover-green scrollto"><h4>Mobile Development</h4></a>
 								<p>
-									Do you want to be even more successful? Learn to love learning and growth. The more effort you put into improving your skills.
+									Android mobile development using Android Studio and Java.
+									Experimenting using Kotlin to create beautiful applications.
 								</p>
 							</div>	
 						</div>													
@@ -153,7 +158,7 @@
 
 			<section class="skills-area mb-90" id="skills">
 				<div class="container">
-					<div class="row d-flex justify-content-center">
+					<div class="row d-flex justify-content-center content">
 		                <div class="menu-content  col-lg-7">
 		                    <div class="title text-center">
 		                        <h1 class="mb-10">My Skills</h1>
@@ -161,7 +166,7 @@
 		                </div>
 		            </div>
 					<div class="row skillbar-wraps">	
-						<div class="col-lg-6 skill-left">
+						<div class="col-lg-6 skill-left tech-skills content">
 							<div class="skills-heading">
 								<h2>Technical Skills</h2>
 								<p>For everything you can code.</p>
@@ -191,7 +196,7 @@
 								<div class="skill" data-width="55"></div>
 							</div>																
 						</div>
-						<div class="col-lg-6 skill-right">
+						<div class="col-lg-6 skill-right content">
 							<div class="skills-heading">
 								<h2>Professional Skills</h2>
 								<p>Because you can't code everything.</p>
@@ -216,13 +221,37 @@
 									</li>
                                 </ul>							
 						</div>
-					</div>	
+					</div>
+					<div class="row mt-20 content">
+						<div class="col-lg-4">
+							<h2>Frameworks & Keywords</h2>
+							<p>A complete toolkit.</p>
+						</div>
+						<div class="col-lg-8">
+							<div class="mh-about-tag">
+                                <ul>
+									<li><span>Node.js</span></li>
+									<li><span>Express.js</span></li>
+									<li><span>JSON</span></li>
+									<li><span>npm</span></li>
+									<li><span>RestAPI</span></li>
+                                    <li><span>html</span></li>
+									<li><span>css</span></li>
+									<li><span>Angular</span></li>
+									<li><span>Bootstrap</span></li>
+                                    <li><span>git</span></li>
+									<li><span>MongoDB</span></li>
+									<li><span>Linux</span></li>
+                                </ul>
+                            </div>
+						</div>
+					</div>
 				</div>
 			</section>
 
 
 			<!-- Start fact Area -->
-			<section class="facts-area section-gap" id="facts-area">
+			<section class="facts-area section-gap content" id="facts-area">
 				<div class="container">				
 					<div class="row">
 						<div class="col-lg-3 col-md-6 single-fact">
@@ -251,67 +280,85 @@
 				<div class="container">
 					<div class="row d-flex justify-content-center mb-20">
 		                <div class="menu-content  col-lg-7">
-		                    <div class="title text-center">
-		                        <h1 class="mb-10">Experience</h1>
+		                    <div class="title text-center content">
+								<h1 class="mb-10">Experience</h1>
+								<p>A roadmap of sucess. Are you next on the list?</p>
 		                    </div>
 		                </div>
 		            </div>
 					<div class="row">
 						<div class="col-md-12 col-md-offset-0">
 							<ul class="timeline">
-								<li class="timeline-heading text-center animate-box">
+								<li class="timeline-heading text-center content">
 									<div><h3>Work Experience</h3></div>
 								</li>
 								<li class="animate-box timeline-unverted">
-									<div class="timeline-badge"><i class="lnr lnr-briefcase"></i></div>
+									<div class="timeline-badge content"><i class="lnr lnr-briefcase"></i></div>
 									<div class="timeline-panel">
-										<div class="timeline-heading">
+										<div class="timeline-heading content">
 											<h3 class="timeline-title">Junior MEAN Stack Developer</h3>
 											<span class="company">Checkpoint Research Inc. - Jun 2018 - Apr 2018</span>
 										</div>
-										<div class="timeline-body">
-											<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+										<div class="timeline-body content">
+											<p>
+												Developed a full stack web application reporting module using MEAN mean-stack technologies.
+												Included user interface creation, backend routing and API calls and user authentication.
+											</p>
 										</div>
 									</div>
 								</li>
 								<li class="timeline-inverted animate-box">
-									<div class="timeline-badge"><i class="lnr lnr-briefcase"></i></div>
+									<div class="timeline-badge content"><i class="lnr lnr-briefcase"></i></div>
 									<div class="timeline-panel">
-										<div class="timeline-heading">
+										<div class="timeline-heading content">
 											<h3 class="timeline-title">Bilingual Network Technician</h3>
 											<span class="company">D-Link Canada - Apr 2018 - Aug 2018</span>
 										</div>
-										<div class="timeline-body">
-											<p>Far far away, behind the word mountains, they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+										<div class="timeline-body content">
+											<p>
+												Provided technical support over phone, online chat and email in French and English to customers for
+												their routers, modems, cameras, range extenders and other D-Link products.
+											</p>
 										</div>
 									</div>
 								</li>
 		
 								<br>
-								<li class="timeline-heading text-center animate-box">
+								<li class="timeline-heading text-center content">
 									<div><h3>Education</h3></div>
 								</li>
 								<li class="timeline-inverted animate-box">
-									<div class="timeline-badge"><i class="lnr lnr-graduation-hat"></i></div>
+									<div class="timeline-badge content"><i class="lnr lnr-graduation-hat"></i></div>
 									<div class="timeline-panel">
-										<div class="timeline-heading">
+										<div class="timeline-heading content">
 											<h3 class="timeline-title">B.A.Sc. Honors Computer Science</h3>
 											<span class="company">McMaster University - Sep 2018 - Present</span>
 										</div>
-										<div class="timeline-body">
-											<p>Far far away, behind the word mountains, they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+										<div class="timeline-body content">
+											<p>
+												Currently enrolled in McMaster's Honors Computer Science Co-op program maintaining a <b>3.9 GPA</b>.
+												</br>
+												Expected graduation for April 2022.
+											</p>
 										</div>
 									</div>
 								</li>
 								<li class="animate-box timeline-unverted">
-									<div class="timeline-badge"><i class="lnr lnr-graduation-hat"></i></div>
+									<div class="timeline-badge content"><i class="lnr lnr-graduation-hat"></i></div>
 									<div class="timeline-panel">
-										<div class="timeline-heading">
+										<div class="timeline-heading content">
 											<h3 class="timeline-title">High School Diploma</h3>
 											<span class="company">Jeunes Sans Frontieres - Jun 2018</span>
 										</div>
-										<div class="timeline-body">
-											<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+										<div class="timeline-body content">
+											<p>
+												Graduated from École Secondaire Jeunes Sans Frontières in June 2018.
+												</br>
+												<b>Activites and Clubs:</b> Microsoft Camps Leader, Arduino Club President,
+												</br>
+												<b>Awards and Distinctions:</b> Honor Roll (4 years), Gouvernor General Academic Medal, 
+												Cumulative GPA of 4.0, Euclid School Champion. 
+											</p>
 										</div>
 									</div>
 								</li>	
@@ -326,7 +373,7 @@
 		    <section class="brands-area testimonial-area">
 		        <div class="container">
 		            <div class="row d-flex justify-content-center">
-		                <div class="menu-content pb-30 col-lg-8">
+		                <div class="menu-content pb-30 col-lg-8 content">
 		                    <div class="title text-center">
 		                        <h1 class="mb-10 banner-quote">Testamonials</h1>
 		                        <p class="banner-quote">"People will forget what you said. But they will never forget what you did for them"</p>
@@ -335,28 +382,26 @@
 		            </div>
 		            <div class="row ">
 		                <div class="active-testimonial ">
-		                    <div class="single-testimonial item d-flex  flex-row">
-		                        <div class="thumb">
-		                            <img class="img-fluid" src="img/elements/user1.png" alt="">
-		                        </div>
+		                    <div class="single-testimonial item d-flex flex-row content">
 		                        <div class="desc">
 		                            <p>
-		                                Do you want to be even more successful? Learn to love learning and growth. The more effort you put into improving your skills, the bigger the payoff you.		     
+									   Benjamin's work at Checkpoint truly amazed me. His growth and development have been
+									   incredible. Going far beyond our expectations he demonstrated great
+									   ability and initiative.		     
 		                            </p>
-		                            <h4>Harriet Maxwell</h4>
-		                            <p>CEO at Google</p>
+		                            <h4>Arun Pilla</h4>
+		                            <p>CEO and founder of Checkpoint Research Inc.</p>
 		                        </div>
 		                    </div>
-		                    <div class="single-testimonial item d-flex flex-row">
-		                        <div class="thumb">
-		                            <img class="img-fluid" src="img/elements/user2.png" alt="">
-		                        </div>
+		                    <div class="single-testimonial item d-flex flex-row content">
 		                        <div class="desc">
 		                            <p>
-		                                A purpose is the eternal condition for success. Every former smoker can tell you just how hard it is to stop smoking cigarettes. However.
+										Benjamin's time at D-Link has been wonderful and his
+										fun and creative personality has helped our departement grow coporately.
+										His attitude when dealing with callers has been exemplary.
 		                            </p>
-		                            <h4>Carolyn Craig</h4>
-		                            <p>CEO at Facebook</p>
+		                            <h4>Premal Somani</h4>
+		                            <p>VP of Technical at D-Link Canada</p>
 		                        </div>
 		                    </div>
 		                </div>
@@ -370,14 +415,14 @@
                 <div class="container">
 		            <div class="row d-flex justify-content-center">
 		                <div class="menu-content pb-25 col-lg-8">
-		                    <div class="title text-center">
+		                    <div class="title text-center content">
 		                        <h1 class="mb-10">My Github Repos</h1>
 		                        <p>After all, the code speaks for itself.</p>
 		                    </div>
 		                </div>
 		            </div>
                     
-                    <div class="filters">
+                    <div class="filters content">
                         <ul>
                             <li class="active" data-filter="*">All</li>
                             <li data-filter=".web">Web</li>
@@ -387,7 +432,7 @@
                         </ul>
                     </div>
                     
-                    <div class="filters-content">
+                    <div class="filters-content content">
                         <div class="row grid">
                             <div class="single-portfolio col-sm-4 all script">
 								<a href="https://github.com/BenjaminKostiuk/haskell-slide-rule" target="_blank">
@@ -524,43 +569,31 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-5 col-md-6 col-sm-6">
-                            <div class="single-footer-widget">
-                                <h4>Interested? So Am I!</h4>
+                           <div class="single-footer-widget">
+                                <h4>More Fun Stuff</h4>
+                                <p>
+									Think I should attend a cool event? What to meet up and talk code?
+									Want tips on making your own website?
+								</br>Sounds great! Just message me!
+								</p>
+								<p class="footer-text mt-20"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+									Copyright &copy;<script>document.write(new Date().getFullYear());</script> | All rights reserved </br>
+									This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+									<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+                            </div>
+                        </div>
+                        <div class="col-lg-5 col-md-6 col-sm-6">
+							 <div class="single-footer-widget">
+                                <h4>Want to Hire Me?</h4>
                                 <p>
 									I'm currently looking for summer co-op employment!
-									Why don't you shoot me an email and we can talk about it.
 								</p>
 								<p>
 									Email me at <a href=mailto:kostiukb@mcmaster.ca>kostiukb@mcmaster.ca</a>, 
 									send me a message on <a href="https://www.linkedin.com/in/benjaminkostiuk/">Linkedin</a> or 
 									call me at <b>647-974-7185</b>.
+								</br> I'll get back to you within 48 hours.
 								</p>
-                            </div>
-                        </div>
-                        <div class="col-lg-5 col-md-6 col-sm-6">
-                            <div class="single-footer-widget">
-                                <h4>Want to Hire Me?</h4>
-                                <p>
-									Send me an automated message with your email that says "I want to hire you!".
-									I'll get back to you within 48 hours.
-								</p>
-								<div class="" id="mc_embed_signup">
-									 <form target="_blank" action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&amp;id=92a4423d01" method="get">
-									  <div class="input-group">
-									    <input type="text" class="form-control" name="EMAIL" placeholder="Enter Email Address" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Email Address '" required="" type="email">
-									    <div class="input-group-btn">
-									      <button class="btn btn-default" type="submit">
-									        <span class="lnr lnr-arrow-right"></span>
-									      </button>    
-									    </div>
-									    	<div class="info"></div>  
-									  </div>
-									</form> 
-								</div>
-								<p class="footer-text mt-20"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-									Copyright &copy;<script>document.write(new Date().getFullYear());</script> Benjamin Kostiuk | All rights reserved </br>
-									This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-									<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
                             </div>
                         </div>
                         <div class="col-lg-2 col-md-6 col-sm-6 social-widget">
@@ -596,7 +629,7 @@
 			<script src="js/waypoints.min.js"></script>
 			<script src="js/jquery.counterup.min.js"></script>
 			<script src="js/simple-skillbar.js"></script>							
-			<script src="js/owl.carousel.min.js"></script>							
+			<script src="js/owl.carousel.min.js"></script>						
 			<script src="js/mail-script.js"></script>
 			<script src="js/typed.min.js"></script>
 			<script src="js/circle-progress.js"></script>

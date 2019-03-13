@@ -11,8 +11,7 @@ $(document).ready(function() {
 			    backDelay: 1100,
 			    backSpeed: 30
 		    });
-	}
-
+    }
 
     //------- Niceselect  js --------//  
 
@@ -52,9 +51,9 @@ $(document).ready(function() {
       });
     }
 
-    //------- Skill  js --------//  
-
     $('.skill').simpleSkillbar();
+
+    
 
     //------- Filter  js --------//  
 
@@ -85,10 +84,10 @@ $(document).ready(function() {
 
     $('.content').each( function(i){
       
-      var bottom_of_object= $(this).offset().top + $(this).outerHeight();
+      var top_of_object= $(this).offset().top;
       var bottom_of_window = $(window).height();
       
-      if( bottom_of_object > bottom_of_window){
+      if( top_of_object > bottom_of_window){
         $(this).addClass('hidden');
       }
     });
@@ -98,12 +97,25 @@ $(document).ready(function() {
         /* Check the location of each element hidden */
         $('.hidden').each( function(i){
           
-            var bottom_of_object = $(this).offset().top + $(this).outerHeight();
+            var top_of_object = $(this).offset().top;
             var bottom_of_window = $(window).scrollTop() + $(window).height();
           
             /* If the object is completely visible in the window, fadeIn it */
-            if( bottom_of_window > bottom_of_object ){
-              $(this).animate({'opacity':'1'},700);
+            if( bottom_of_window > top_of_object ){
+              $(this).addClass('animated fadeInUp')
+            }
+        });
+
+        $('.tech-skills').each( function(i){
+          
+            var top_of_object = $(this).offset().top;
+            var bottom_of_window = $(window).scrollTop() + $(window).height();
+          
+            /* If the object is completely visible in the window, fadeIn it */
+            if( bottom_of_window > top_of_object ){
+                //------- Skill  js --------//  
+               $('.skill').simpleSkillbar();
+               $(this).removeClass('tech-skills');
             }
         });
     });

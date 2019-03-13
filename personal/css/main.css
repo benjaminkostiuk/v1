@@ -145,6 +145,14 @@ a, a:focus, a:hover {
   padding: 60px;
 }
 
+.delay-short {
+  animation-delay: 0.4s;
+}
+
+.delay-2s {
+  animation-delay: 1s;
+}
+
 /**
  *  Typography
  *
@@ -2393,19 +2401,19 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .p1-gradient-color, .single-services:hover .lnr-code {
-  background: #d42929;
+  background: #f12c2c;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
 .p1-gradient-color, .single-services:hover .lnr-database {
-  background: #3243d8;
+  background: rgb(108, 122, 243);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
 .p1-gradient-color, .single-services:hover .lnr-tablet {
-  background: #1cc024;
+  background: #20d429;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -2544,8 +2552,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .img-border {
-  height: 400px;
-  width: 400px;
+  height: fit-content;
+  width: fit-content;
   border: 20px solid rgba(0, 0, 0, 0.07);
   margin: 0 auto;
   border-radius: 50%; }
@@ -2595,7 +2603,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .banner-right {
   text-align: center;
-  margin-bottom: 17%;
+  margin-bottom: 10%;
 }
 
 @media (max-width: 991px) {
@@ -2651,6 +2659,25 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin-top: 20px;
 }
 
+.mh-about-tag {
+  word-break: break-all;
+  margin-bottom: 10px;
+  margin-top: 10px; }
+  .mh-about-tag ul li {
+    margin: 0px 6px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    padding: 4px 0px;
+    display: inline-block; }
+    .mh-about-tag ul li span {
+      border: 1px solid #4faef1;
+      color: rgba(0, 0, 0, 0.9);
+      
+      padding: 4px 10px;
+      border-radius: 4px; }
+      .mh-about-tag ul li span:hover {
+        background-color: transparent !important; }
+
 /*-------- End home-about Area ------------*/
 /*--------- Start Services Area -------------*/
 .single-services {
@@ -2671,15 +2698,15 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .single-services:hover .hover-red h4 {
-  color: #d42929;
+  color: #f12c2c;
 }
 
 .single-services:hover .hover-blue h4 {
-  color: #3243d8;
+  color: rgb(108, 122, 243);
 }
 
 .single-services:hover .hover-green h4 {
-  color: #1cc024;
+  color: #20d429;
 }
 
 .single-services:hover h4 {

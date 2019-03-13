@@ -1,7 +1,7 @@
 <?php
-    $to = 'demo@site.com';
-    $name = $_POST["name"];
-    $email= $_POST["email"];
+    $to = 'kostiukb@mcmaster.ca';
+    $name = $_POST["Automated Message from Website"];
+    $email= $_POST["kostiukb@mcmaster.ca"];
     $text= $_POST["message"];
     $subject= $_POST["subject"];
     
