@@ -1100,16 +1100,18 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .genric-btn.default {
-  color: #fff;
-  background: #6382e6;
   font-size: 13px;
-  border: 1px solid transparent;
-}
-
-.genric-btn.default:hover {
   border: 1px solid #6382e6;
   color: #6382e6;
   background: #fff;
+
+  
+}
+
+.genric-btn.default:hover {
+  border: 1px solid transparent;
+  color: #fff;
+  background: #6382e6;
 }
 
 .genric-btn.default-border {
@@ -2413,15 +2415,15 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .p1-gradient-color, .single-services:hover .lnr-tablet {
-  background: #20d429;
+  background: #6b2f9c;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
 .p1-gradient-color, .single-services .lnr-tablet {
-  background: -moz-linear-gradient(0deg, #53ff5c 0%, #47ff51 100%);
-  background: -webkit-linear-gradient(0deg, #53ff5c 0%, #47ff51 100%);
-  background: -ms-linear-gradient(0deg, #53ff5c 0%, #47ff51 100%);
+  background: -moz-linear-gradient(0deg, #a946fa 0%, #af59f7 100%);
+  background: -webkit-linear-gradient(0deg, #a946fa 0%, #af59f7 100%);
+  background: -ms-linear-gradient(0deg, #a946fa 0%, #af59f7 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -2548,7 +2550,9 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .home-img {
-  background: url(../img/wave-banner.jpg);
+  background: url(../img/motherboard.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .img-border {
@@ -2685,6 +2689,10 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin-top: 60px;
 }
 
+.single-services .hover-purple h4 {
+  color: #a946fa;
+}
+
 .single-services .hover-green h4 {
   color: #53ff5c;
 }
@@ -2707,6 +2715,10 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .single-services:hover .hover-green h4 {
   color: #20d429;
+}
+
+.single-services:hover .hover-purple h4 {
+  color: #6b2f9c;
 }
 
 .single-services:hover h4 {
